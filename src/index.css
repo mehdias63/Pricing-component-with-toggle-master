@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 @layer utilities {
-    .a-item {
-        @apply cursor-pointer text-lg leading-normal;
+    .bord {
+        @apply border-t-2 border-dark-gray p-2;
       }
     
-      .a-item.active {
-        @apply text-white;
+      .bord2 {
+        @apply border-y-2 border-dark-gray p-2;
       }
 }

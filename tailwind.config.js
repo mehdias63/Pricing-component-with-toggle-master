@@ -3,13 +3,14 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      rub: ["Rubik"],
+      mont: ["Montserrat"],
     },
     extend: {
       colors: {
-        "light-orange": "#FF8B64",
-        "light-blue": "#55C2E6",
-        "light-red": "#FF5E7D",
+        "light-purple": "#A2A7F0",
+        "light-gray": "#F7F7FE",
+        "dark-gray": "#6E728E",
+        "verydark-gray": "#4A4D60",
       },
     },
   },
