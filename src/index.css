@@ -4,10 +4,10 @@
 
 @layer utilities {
     .bord {
-        @apply border-t-2 border-dark-gray p-2;
+        @apply border-t-2 p-2 text-[0.9375rem] font-bold leading-7;
       }
     
       .bord2 {
-        @apply border-y-2 border-dark-gray p-2;
+        @apply border-b-2;
       }
 }
