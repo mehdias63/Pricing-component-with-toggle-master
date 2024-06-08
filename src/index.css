@@ -10,4 +10,7 @@
       .bord2 {
         @apply border-b-2;
       }
+      .lab {
+        @apply text-[0.9375rem] font-bold leading-7 opacity-50 text-dark-gray;
+      }
 }

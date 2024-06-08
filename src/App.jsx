@@ -5,9 +5,17 @@ import Card from './components/Card'
 function App() {
 
   return (
-    <main className='relative px-6 py-24 max-w-[90rem] flex items-center justify-center mx-auto bg-light-gray font-mont'>
+    <main className='relative px-6 py-16 max-w-[90rem] flex flex-col items-center justify-center mx-auto bg-light-gray font-mont'>
       <img src='/images/bg-bottom.svg' className='absolute bottom-0 left-0 z-0'/>
       <img src='/images/bg-top.svg' className='absolute top-0 right-0 z-0'/>
+      <div className='md:mb-20 flex flex-col items-center'>
+        <p className='text-[2rem] font-bold text-dark-gray mb-6'>Our Pricing</p>
+        <div className='flex gap-5'>
+        <label className='lab'>Annually</label>
+        <input type="checkbox" />
+        <label className='lab'>Monthly</label>
+        </div>
+      </div>
       <div className='flex flex-col md:flex-row gap-6 md:gap-0 z-10'>
       <Card
       text="Basic"
