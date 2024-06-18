@@ -10,11 +10,12 @@ export default function Card({
 	color2,
 	color3,
 	color4,
+
 	className,
 }) {
 	return (
 		<div
-			className={`w-[20.4375rem] h-[28.3125rem] bg-white flex flex-col justify-evenly items-center rounded-xl text-dark-gray ${className}`}
+			className={`w-[20.4375rem] h-[28.3125rem] bg-white flex flex-col justify-evenly items-center rounded-xl text-dark-gray ${className} `}
 			style={{ backgroundColor: color, color: color2 }}
 		>
 			<p className="text-lg leading-7 font-bold">{text}</p>

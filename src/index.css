@@ -13,6 +13,9 @@
 	.lab {
 		@apply text-[0.9375rem] font-bold leading-7 opacity-50 text-dark-gray;
 	}
+	.gard {
+		@apply bg-gradient-to-r from-[#A2A7F0] to-[#696EDD] text-white;
+	}
 }
 .switch {
 	position: relative;

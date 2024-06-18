@@ -21,6 +21,7 @@ const data = [
 		hard: '1 TB',
 		user: '5',
 		bandwidth: '10',
+		className: 'gard',
 	},
 	{
 		text: 'Master',
@@ -67,7 +68,10 @@ function App() {
 						text={item.text}
 						hard={item.hard}
 						user={item.user}
+						color={item.color}
+						color2={item.color2}
 						bandwidth={item.bandwidth}
+						className={item.className}
 						price={toggle ? item.price.monthly : item.price.annually}
 					/>
 				))}
